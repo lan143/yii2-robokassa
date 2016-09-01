@@ -12,7 +12,7 @@
         {
             "name": "Artyom Kravchenko",
             "email": "lan143@lan143.ru"
-        },
+        }
     ],
     "minimum-stability": "dev",
     "require": {
