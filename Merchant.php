@@ -33,6 +33,7 @@ class Merchant extends Object
             'IncCurrLabel' => $sIncCurrLabel,
             'Email' => $sEmail,
             'Culture' => $sCulture,
+            'IsTest' => $this->IsTest,
         ]);
 
         if (!empty($shp) && ($query = http_build_query($shp)) !== '') {
