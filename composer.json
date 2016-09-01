@@ -1,5 +1,5 @@
 {
-    "name": "yii-cms/yii2-robokassa",
+    "name": "lan143/yii2-robokassa",
     "description": "Robokassa payment extension.",
     "keywords": ["yii2", "robokassa"],
     "type": "yii2-extension",
@@ -8,7 +8,11 @@
         {
             "name": "Sergey Gonimar",
             "email": "sergey.gonimar@gmail.com"
-        }
+        },
+        {
+            "name": "Artyom Kravchenko",
+            "email": "lan143@lan143.ru"
+        },
     ],
     "minimum-stability": "dev",
     "require": {
