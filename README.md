@@ -15,8 +15,14 @@ composer require yii-cms/yii2-robokassa
         'class' => '\robokassa\Merchant',
         'baseUrl' => 'https://auth.robokassa.ru/Merchant/Index.aspx',
         'sMerchantLogin' => '',
-        'sMerchantPass1' => '',
-        'sMerchantPass2' => '',
+        'isTest' => (YII_ENV == 'prod') ? 0 : 1,
+        'passwords' => (YII_ENV == 'prod') ? [
+            'sMerchantPass1' => '',
+            'sMerchantPass2' => '',
+        ] : [
+            'sMerchantPass1' => '',
+            'sMerchantPass2' => '',
+        ],
 		'isTest' => YII_ENV_PROD ? 0 : 1
     ]
     ...
